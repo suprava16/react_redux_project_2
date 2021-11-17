@@ -2,6 +2,6 @@ import { ADD_COUNTER } from "../Constants/CounterConstant"
 export function setCounter() {
   return {
     type: ADD_COUNTER,
-    payload:5
+    payload:1
   }
 }

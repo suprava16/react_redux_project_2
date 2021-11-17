@@ -1,10 +1,12 @@
+import CounterContainer from "./Containers/CounterContainer"
+import React, { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-   
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <CounterContainer/>
+      </div>
+    )
+  }
 }
-
-export default App;
